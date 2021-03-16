@@ -6,6 +6,11 @@ CXXFLAGS=-std=c++2a
 OBJECTS=snowman.o
 SOURCES=snowman.cpp
 
+
+main: Main.o $(OBJECTS)
+	$(CXX) $(CXXFLAGS) $^ -o main
+
+
 run: test
 	./$^
 
