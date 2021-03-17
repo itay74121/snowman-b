@@ -17,17 +17,18 @@ int main()
 {
     int t = 400; 
     // prepare the snowman 
-    string o = snowman(11333311);
-    string c = snowman(11442211);
-    while(1)
-    {
-        system("clear"); // clear screen 
-        cout << o << endl; // print snowman with open eyes 
-        sleepforme(t); // sleep 
-        system("clear"); // clear screen
-        cout << c << endl; // print snowman with closed eyes 
-        sleepforme(t); // sleep 
-    }
+    // string o = snowman(11333311);
+    // string c = snowman(11442211);
+    // while(1)
+    // {
+    //     system("clear"); // clear screen 
+    //     cout << o << endl; // print snowman with open eyes 
+    //     sleepforme(t); // sleep 
+    //     system("clear"); // clear screen
+    //     cout << c << endl; // print snowman with closed eyes 
+    //     sleepforme(t); // sleep 
+    // }
+    cout << snowman(44444444) << endl;
     
     return 0;
 }
