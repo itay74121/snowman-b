@@ -7,7 +7,7 @@ using namespace ariel;
 using namespace std;
 
 
-void sleepforme(int mili) // function to simplify sleeping 
+void sleepforme(int mili) // function to simplify sleeping  
 {
     std::this_thread::sleep_for(std::chrono::milliseconds(mili));    
 }
